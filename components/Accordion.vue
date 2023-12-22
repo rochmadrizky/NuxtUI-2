@@ -1,6 +1,6 @@
 <template>
-  <div class="px-4">
-    <UAccordion color="violet" variant="soft" size="sm" :items="items" />
+  <div class="px-4 max-w-xl mx-auto">
+    <UAccordion color="violet" :items="items" :class="'max-w-xs'" />
   </div>
 </template>
 
@@ -9,40 +9,36 @@ const items = [
   {
     label: "Getting Started",
     icon: "i-heroicons-information-circle",
-    defaultOpen: true,
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.",
+      "Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue.",
   },
   {
     label: "Installation",
     icon: "i-heroicons-arrow-down-tray",
-    defaultOpen: true,
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.",
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
   },
   {
     label: "Theming",
     icon: "i-heroicons-eye-dropper",
-    content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.",
+    content: "Praesent ut sem nec arcu pellentesque aliquet.",
   },
   {
     label: "Layouts",
     icon: "i-heroicons-rectangle-group",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.",
+      "Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue.",
   },
   {
     label: "Components",
     icon: "i-heroicons-square-3-stack-3d",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit,",
   },
   {
     label: "Utilities",
     icon: "i-heroicons-wrench-screwdriver",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.",
+      " Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. ",
   },
 ];
 </script>
